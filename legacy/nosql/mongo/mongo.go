@@ -15,7 +15,6 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/bsonx"
 )
 
 const Name = "mongo"
@@ -125,7 +124,7 @@ func (db *DB) EnsureIndex(ctx context.Context, col string, primary nosql.Index, 
 		keys := make(bson.D, 0, len(primary.Fields))
 
 		for _, field := range primary.Fields {
-			keys = append(keys, primitive.E{Key: field, Value: bsonx.Int32(1)})
+			keys = append(keys, primitive.E{Key: field, Value: 1})
 		}
 		index := mongo.IndexModel{
 			Keys:    keys,
@@ -143,7 +142,7 @@ func (db *DB) EnsureIndex(ctx context.Context, col string, primary nosql.Index, 
 		keys := make(bson.D, 0, len(ind.Fields))
 
 		for _, field := range ind.Fields {
-			keys = append(keys, primitive.E{Key: field, Value: bsonx.Int32(1)})
+			keys = append(keys, primitive.E{Key: field, Value: 1})
 		}
 		index := mongo.IndexModel{
 			Keys:    keys,
