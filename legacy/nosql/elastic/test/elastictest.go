@@ -7,9 +7,9 @@ import (
 	"github.com/ory/dockertest"
 	edriver "gopkg.in/olivere/elastic.v5"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql"
-	"github.com/hidal-go/hidalgo/legacy/nosql/elastic"
-	"github.com/hidal-go/hidalgo/legacy/nosql/nosqltest"
+	"github.com/mcku/hidalgo/legacy/nosql"
+	"github.com/mcku/hidalgo/legacy/nosql/elastic"
+	"github.com/mcku/hidalgo/legacy/nosql/nosqltest"
 )
 
 var versions = []string{

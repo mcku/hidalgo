@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hidal-go/hidalgo/kv"
+	"github.com/mcku/hidalgo/kv"
 )
 
 func TestSepEscape(t *testing.T) {

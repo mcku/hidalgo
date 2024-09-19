@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql"
+	"github.com/mcku/hidalgo/legacy/nosql"
 )
 
 type Registration struct {

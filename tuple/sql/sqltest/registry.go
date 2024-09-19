@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	sqltuple "github.com/hidal-go/hidalgo/tuple/sql"
+	sqltuple "github.com/mcku/hidalgo/tuple/sql"
 )
 
 type Registration struct {

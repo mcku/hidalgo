@@ -3,8 +3,8 @@ package tuplepb
 import (
 	"fmt"
 
-	"github.com/hidal-go/hidalgo/tuple"
-	"github.com/hidal-go/hidalgo/values"
+	"github.com/mcku/hidalgo/tuple"
+	"github.com/mcku/hidalgo/values"
 )
 
 //go:generate protoc --proto_path=$GOPATH/src:. --gogo_out=. tuple.proto

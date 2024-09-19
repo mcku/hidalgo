@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hidal-go/hidalgo/filter"
-	hkv "github.com/hidal-go/hidalgo/kv"
-	"github.com/hidal-go/hidalgo/kv/flat"
-	"github.com/hidal-go/hidalgo/kv/kvtest"
-	"github.com/hidal-go/hidalgo/tuple"
-	tuplekv "github.com/hidal-go/hidalgo/tuple/kv"
-	"github.com/hidal-go/hidalgo/values"
+	"github.com/mcku/hidalgo/filter"
+	hkv "github.com/mcku/hidalgo/kv"
+	"github.com/mcku/hidalgo/kv/flat"
+	"github.com/mcku/hidalgo/kv/kvtest"
+	"github.com/mcku/hidalgo/tuple"
+	tuplekv "github.com/mcku/hidalgo/tuple/kv"
+	"github.com/mcku/hidalgo/values"
 )
 
 // Func is a constructor for database implementations.

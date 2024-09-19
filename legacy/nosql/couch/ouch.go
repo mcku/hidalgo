@@ -11,7 +11,7 @@ import (
 
 	"github.com/go-kivik/kivik"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql"
+	"github.com/mcku/hidalgo/legacy/nosql"
 )
 
 func Traits() nosql.Traits {

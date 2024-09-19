@@ -3,7 +3,7 @@ package filter
 import (
 	"bytes"
 
-	"github.com/hidal-go/hidalgo/values"
+	"github.com/mcku/hidalgo/values"
 )
 
 type ValueFilter interface {

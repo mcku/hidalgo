@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/hidal-go/hidalgo/base"
+	"github.com/mcku/hidalgo/base"
 )
 
 // Iterator is an iterator over hierarchical key-value store.

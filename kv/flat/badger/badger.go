@@ -5,8 +5,8 @@ import (
 
 	"github.com/dgraph-io/badger/v2"
 
-	"github.com/hidal-go/hidalgo/base"
-	"github.com/hidal-go/hidalgo/kv/flat"
+	"github.com/mcku/hidalgo/base"
+	"github.com/mcku/hidalgo/kv/flat"
 )
 
 const (

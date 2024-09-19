@@ -3,10 +3,10 @@ package postgres_test
 import (
 	"testing"
 
-	_ "github.com/hidal-go/hidalgo/tuple/sql/postgres/test"
+	_ "github.com/mcku/hidalgo/tuple/sql/postgres/test"
 
-	"github.com/hidal-go/hidalgo/tuple/sql/postgres"
-	"github.com/hidal-go/hidalgo/tuple/sql/sqltest"
+	"github.com/mcku/hidalgo/tuple/sql/postgres"
+	"github.com/mcku/hidalgo/tuple/sql/sqltest"
 )
 
 func TestPostgreSQL(t *testing.T) {

@@ -3,8 +3,8 @@ package badger
 import (
 	"testing"
 
-	"github.com/hidal-go/hidalgo/kv/flat"
-	"github.com/hidal-go/hidalgo/kv/kvtest"
+	"github.com/mcku/hidalgo/kv/flat"
+	"github.com/mcku/hidalgo/kv/kvtest"
 )
 
 func TestBadger(t *testing.T) {

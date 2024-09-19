@@ -9,9 +9,9 @@ import (
 
 	"github.com/ory/dockertest"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql"
-	"github.com/hidal-go/hidalgo/legacy/nosql/couch"
-	"github.com/hidal-go/hidalgo/legacy/nosql/nosqltest"
+	"github.com/mcku/hidalgo/legacy/nosql"
+	"github.com/mcku/hidalgo/legacy/nosql/couch"
+	"github.com/mcku/hidalgo/legacy/nosql/nosqltest"
 )
 
 func init() {

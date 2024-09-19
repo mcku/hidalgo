@@ -22,8 +22,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/hidal-go/hidalgo/base"
-	"github.com/hidal-go/hidalgo/kv/flat"
+	"github.com/mcku/hidalgo/base"
+	"github.com/mcku/hidalgo/kv/flat"
 )
 
 const (

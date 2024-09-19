@@ -10,8 +10,8 @@ import (
 
 	"github.com/cockroachdb/pebble"
 
-	"github.com/hidal-go/hidalgo/base"
-	"github.com/hidal-go/hidalgo/kv/flat"
+	"github.com/mcku/hidalgo/base"
+	"github.com/mcku/hidalgo/kv/flat"
 )
 
 const (
