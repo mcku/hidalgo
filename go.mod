@@ -1,4 +1,4 @@
-module github.com/hidal-go/hidalgo
+module github.com/mcku/hidalgo
 
 go 1.17
 
