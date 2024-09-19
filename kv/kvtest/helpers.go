@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hidal-go/hidalgo/kv"
+	"github.com/mcku/hidalgo/kv"
 )
 
 func NewTest(t testing.TB, db kv.KV) *Test {

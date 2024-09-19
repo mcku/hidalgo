@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql"
+	"github.com/mcku/hidalgo/legacy/nosql"
 )
 
 type Database struct {

@@ -3,10 +3,10 @@ package mysql_test
 import (
 	"testing"
 
-	_ "github.com/hidal-go/hidalgo/tuple/sql/mysql/test"
+	_ "github.com/mcku/hidalgo/tuple/sql/mysql/test"
 
-	"github.com/hidal-go/hidalgo/tuple/sql/mysql"
-	"github.com/hidal-go/hidalgo/tuple/sql/sqltest"
+	"github.com/mcku/hidalgo/tuple/sql/mysql"
+	"github.com/mcku/hidalgo/tuple/sql/sqltest"
 )
 
 func TestMySQL(t *testing.T) {

@@ -3,9 +3,9 @@ package elastic_test
 import (
 	"testing"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql/elastic"
-	_ "github.com/hidal-go/hidalgo/legacy/nosql/elastic/test"
-	"github.com/hidal-go/hidalgo/legacy/nosql/nosqltest"
+	"github.com/mcku/hidalgo/legacy/nosql/elastic"
+	_ "github.com/mcku/hidalgo/legacy/nosql/elastic/test"
+	"github.com/mcku/hidalgo/legacy/nosql/nosqltest"
 )
 
 func TestElastic(t *testing.T) {

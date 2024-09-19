@@ -3,8 +3,8 @@ package options
 import (
 	"context"
 
-	"github.com/hidal-go/hidalgo/kv"
-	"github.com/hidal-go/hidalgo/kv/flat"
+	"github.com/mcku/hidalgo/kv"
+	"github.com/mcku/hidalgo/kv/flat"
 )
 
 // WithPrefixKV returns IteratorOption that limits scanned key to a given binary prefix.

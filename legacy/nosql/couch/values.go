@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql"
+	"github.com/mcku/hidalgo/legacy/nosql"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"cloud.google.com/go/datastore"
 	"github.com/ory/dockertest"
 
-	"github.com/hidal-go/hidalgo/tuple"
-	"github.com/hidal-go/hidalgo/tuple/tupletest"
+	"github.com/mcku/hidalgo/tuple"
+	"github.com/mcku/hidalgo/tuple/tupletest"
 )
 
 func TestDatastore(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	gomongo "go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/hidal-go/hidalgo/legacy/nosql"
-	"github.com/hidal-go/hidalgo/legacy/nosql/mongo"
-	"github.com/hidal-go/hidalgo/legacy/nosql/nosqltest"
+	"github.com/mcku/hidalgo/legacy/nosql"
+	"github.com/mcku/hidalgo/legacy/nosql/mongo"
+	"github.com/mcku/hidalgo/legacy/nosql/nosqltest"
 )
 
 const vers = "3"
