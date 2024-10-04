@@ -12,8 +12,8 @@ import (
 
 	"gopkg.in/olivere/elastic.v5"
 
-	"github.com/mcku/hidalgo/base"
-	"github.com/mcku/hidalgo/legacy/nosql"
+	"github.com/hidal-go/hidalgo/base"
+	"github.com/hidal-go/hidalgo/legacy/nosql"
 )
 
 const Name = "elastic"

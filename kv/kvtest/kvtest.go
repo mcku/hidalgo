@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mcku/hidalgo/kv"
-	"github.com/mcku/hidalgo/kv/options"
+	"github.com/hidal-go/hidalgo/kv"
+	"github.com/hidal-go/hidalgo/kv/options"
 )
 
 // Func is a constructor for database implementations.

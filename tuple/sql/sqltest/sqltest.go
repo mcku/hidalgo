@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mcku/hidalgo/tuple"
-	sqltuple "github.com/mcku/hidalgo/tuple/sql"
-	"github.com/mcku/hidalgo/tuple/tupletest"
+	"github.com/hidal-go/hidalgo/tuple"
+	sqltuple "github.com/hidal-go/hidalgo/tuple/sql"
+	"github.com/hidal-go/hidalgo/tuple/tupletest"
 )
 
 type Database struct {

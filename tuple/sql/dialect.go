@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mcku/hidalgo/values"
+	"github.com/hidal-go/hidalgo/values"
 )
 
 type ErrorFunc func(err error) error

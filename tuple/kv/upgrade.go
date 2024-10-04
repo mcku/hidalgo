@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/mcku/hidalgo/filter"
-	"github.com/mcku/hidalgo/kv"
-	"github.com/mcku/hidalgo/kv/options"
-	"github.com/mcku/hidalgo/tuple"
-	"github.com/mcku/hidalgo/tuple/tuplepb"
-	"github.com/mcku/hidalgo/values"
+	"github.com/hidal-go/hidalgo/filter"
+	"github.com/hidal-go/hidalgo/kv"
+	"github.com/hidal-go/hidalgo/kv/options"
+	"github.com/hidal-go/hidalgo/tuple"
+	"github.com/hidal-go/hidalgo/tuple/tuplepb"
+	"github.com/hidal-go/hidalgo/values"
 )
 
 func New(kv kv.KV) tuple.Store {

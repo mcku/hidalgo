@@ -5,5 +5,5 @@ package all
 // Backends that don't support 32bit
 
 import (
-	_ "github.com/mcku/hidalgo/kv/flat/pebble"
+	_ "github.com/hidal-go/hidalgo/kv/flat/pebble"
 )

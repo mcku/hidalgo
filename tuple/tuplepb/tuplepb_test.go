@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mcku/hidalgo/tuple"
-	"github.com/mcku/hidalgo/values"
+	"github.com/hidal-go/hidalgo/tuple"
+	"github.com/hidal-go/hidalgo/values"
 )
 
 func TestTableEncoding(t *testing.T) {

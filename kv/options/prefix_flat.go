@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/mcku/hidalgo/kv"
-	"github.com/mcku/hidalgo/kv/flat"
+	"github.com/hidal-go/hidalgo/kv"
+	"github.com/hidal-go/hidalgo/kv/flat"
 )
 
 // WithPrefixFlat returns IteratorOption that limits scanned key to a given binary prefix.

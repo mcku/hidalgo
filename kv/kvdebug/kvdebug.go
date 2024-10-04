@@ -7,7 +7,7 @@ import (
 	"log"
 	"sync/atomic"
 
-	"github.com/mcku/hidalgo/kv"
+	"github.com/hidal-go/hidalgo/kv"
 )
 
 var _ kv.KV = (*KV)(nil)

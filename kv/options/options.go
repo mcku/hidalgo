@@ -1,8 +1,8 @@
 package options
 
 import (
-	"github.com/mcku/hidalgo/kv"
-	"github.com/mcku/hidalgo/kv/flat"
+	"github.com/hidal-go/hidalgo/kv"
+	"github.com/hidal-go/hidalgo/kv/flat"
 )
 
 var (

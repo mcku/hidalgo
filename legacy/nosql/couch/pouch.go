@@ -1,4 +1,3 @@
-//go:build js
 // +build js
 
 package couch
@@ -6,8 +5,8 @@ package couch
 import (
 	"context"
 
-	"github.com/mcku/hidalgo/base"
-	"github.com/mcku/hidalgo/legacy/nosql"
+	"github.com/hidal-go/hidalgo/base"
+	"github.com/hidal-go/hidalgo/legacy/nosql"
 
 	_ "github.com/go-kivik/pouchdb" // The PouchDB driver
 )

@@ -6,8 +6,8 @@ import (
 	"github.com/lib/pq"   // This import will be dropped if pq.QuoteIdentifier is removed.
 	_ "github.com/lib/pq" // This side-effect import must be kept.
 
-	"github.com/mcku/hidalgo/base"
-	sqltuple "github.com/mcku/hidalgo/tuple/sql"
+	"github.com/hidal-go/hidalgo/base"
+	sqltuple "github.com/hidal-go/hidalgo/tuple/sql"
 )
 
 const Name = "postgres"

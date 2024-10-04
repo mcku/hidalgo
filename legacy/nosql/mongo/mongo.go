@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mcku/hidalgo/base"
-	"github.com/mcku/hidalgo/legacy/nosql"
+	"github.com/hidal-go/hidalgo/base"
+	"github.com/hidal-go/hidalgo/legacy/nosql"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

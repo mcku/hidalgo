@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mcku/hidalgo/tuple"
-	"github.com/mcku/hidalgo/values"
+	"github.com/hidal-go/hidalgo/tuple"
+	"github.com/hidal-go/hidalgo/values"
 )
 
 const (

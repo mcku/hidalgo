@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mcku/hidalgo/base"
-	"github.com/mcku/hidalgo/filter"
-	"github.com/mcku/hidalgo/values"
+	"github.com/hidal-go/hidalgo/base"
+	"github.com/hidal-go/hidalgo/filter"
+	"github.com/hidal-go/hidalgo/values"
 )
 
 var (

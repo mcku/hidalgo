@@ -3,7 +3,7 @@ package kv
 import (
 	"context"
 
-	"github.com/mcku/hidalgo/base"
+	"github.com/hidal-go/hidalgo/base"
 )
 
 // Iterator is an iterator over hierarchical key-value store.

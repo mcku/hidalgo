@@ -21,8 +21,8 @@ import (
 
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/mcku/hidalgo/base"
-	"github.com/mcku/hidalgo/kv"
+	"github.com/hidal-go/hidalgo/base"
+	"github.com/hidal-go/hidalgo/kv"
 )
 
 const (

@@ -3,7 +3,7 @@ package sqltuple
 import (
 	"sort"
 
-	"github.com/mcku/hidalgo/base"
+	"github.com/hidal-go/hidalgo/base"
 )
 
 // DSNFunc is a function for building a Data Source Name for SQL driver, given a address and the database name.

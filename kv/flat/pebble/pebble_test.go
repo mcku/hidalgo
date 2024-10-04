@@ -5,8 +5,8 @@ package pebble
 import (
 	"testing"
 
-	"github.com/mcku/hidalgo/kv/flat"
-	"github.com/mcku/hidalgo/kv/kvtest"
+	"github.com/hidal-go/hidalgo/kv/flat"
+	"github.com/hidal-go/hidalgo/kv/kvtest"
 )
 
 func TestPebble(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	"cloud.google.com/go/datastore"
 	"google.golang.org/api/iterator"
 
-	"github.com/mcku/hidalgo/tuple"
-	"github.com/mcku/hidalgo/tuple/tuplepb"
-	"github.com/mcku/hidalgo/values"
+	"github.com/hidal-go/hidalgo/tuple"
+	"github.com/hidal-go/hidalgo/tuple/tuplepb"
+	"github.com/hidal-go/hidalgo/values"
 )
 
 func Open(ctx context.Context, projectID string) (tuple.Store, error) {

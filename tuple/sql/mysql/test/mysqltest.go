@@ -5,9 +5,9 @@ import (
 
 	"github.com/ory/dockertest"
 
-	sqltuple "github.com/mcku/hidalgo/tuple/sql"
-	"github.com/mcku/hidalgo/tuple/sql/mysql"
-	"github.com/mcku/hidalgo/tuple/sql/sqltest"
+	sqltuple "github.com/hidal-go/hidalgo/tuple/sql"
+	"github.com/hidal-go/hidalgo/tuple/sql/mysql"
+	"github.com/hidal-go/hidalgo/tuple/sql/sqltest"
 )
 
 var versions = []string{

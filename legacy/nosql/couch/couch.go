@@ -8,8 +8,8 @@ import (
 
 	_ "github.com/go-kivik/couchdb" // The CouchDB driver
 
-	"github.com/mcku/hidalgo/base"
-	"github.com/mcku/hidalgo/legacy/nosql"
+	"github.com/hidal-go/hidalgo/base"
+	"github.com/hidal-go/hidalgo/legacy/nosql"
 )
 
 const (
